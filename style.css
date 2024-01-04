@@ -1,0 +1,69 @@
+html{
+	scroll-behavior:smooth;
+    font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+    color: white ;	
+}
+body{
+    margin: auto;
+	justify-content:center;
+    padding: 20px;
+}
+
+.TituloSecao {
+    padding: 20px;
+    margin: auto;
+	justify-content:center;
+    background-color: #F08EA9;
+    width: 60%;
+    height: 10%;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+.ConteudoSecao {
+    padding: 20px;
+    margin: auto;
+	justify-content:center;
+    background-color: #BAB1DE;
+    width: 60%;
+   
+    border-radius: 0px 0px 5px 5px;
+    transition: transform 500ms, box-shadow 400ms;
+}
+
+a{
+    text-decoration: none;
+    color: white ;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white ;
+}
+
+a:active{
+    text-decoration: none;
+    color: white ;
+}
+
+
+/*
+#TituloSecao:active {
+    padding: 20px;
+    margin: auto;
+	justify-content:center;
+    background-color: blue;
+    width: 80%;
+    height: 10%;
+    border-radius: 10px 10px 0px 0px;
+
+#ConteudoSecao:hover {
+    padding: 20px;
+    margin: auto;
+	justify-content:center;
+    background-color: green;
+    width: 80%;
+    height: 120px;
+    border-radius: 0px 0px 10px 10px;
+    transform: translateY(5px) translateX(0px);
+}
+*/
